@@ -72,7 +72,7 @@ jobs:
     needs: component-analysis
     steps:
       - name: Sleep for 10 seconds
-        run: sleep 15
+        run: sleep 10
 
 # Functional Testing with Sleep Statement
   functional-testing:
